@@ -1,0 +1,79 @@
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.75em;
+  margin: 40px;
+}
+
+.section {
+  border: 1px solid black;
+  background-color: #CCCCCC;
+  margin: 15px;
+  padding: 10px;
+  padding-top: 45px; /* Push content down from title */
+  position: relative;
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  padding: 5px 15px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.chicken {
+  background-color: #FFB6C1; /* Light Pink */
+}
+
+.beef {
+  background-color: #FFD700; /* Gold */
+}
+
+.sushi {
+  background-color: #ADD8E6; /* Light Blue */
+}
+
+.row {
+  width: 100%;
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .col-sm-12 {
+      float: left;
+      width: 100%;
+  }
+}
