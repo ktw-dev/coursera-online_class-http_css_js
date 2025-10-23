@@ -1,0 +1,41 @@
+.menu-section {
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    height: 700px;
+    overflow: auto;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.menu-section:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.menu-section a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#collapsable-nav {
+    background-color: #f8f8f8;
+}
+
+#nav-list li {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#nav-list li:last-child {
+    border-bottom: none;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #337ab7;
+}
